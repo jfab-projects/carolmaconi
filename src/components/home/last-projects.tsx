@@ -3,13 +3,10 @@
 import React from "react";
 import { SectionTitle } from "../shared/section-title";
 import { ButtonLink } from "../shared/button-link";
-// import { useIsMobile } from "@/hooks/use-mobile";
 import { projects } from "@/utils/data";
 import { CardProject } from "../shared/card-project";
 
 export const LastProjects = () => {
-  // const isMobile = useIsMobile();
-
   return (
     <section className="mt-36">
       <SectionTitle title="Portfolio" subtitle="Últimos Projetos" />
