@@ -41,7 +41,7 @@ export default function CarouselProject({ images }: { images: string[] }) {
             images.map((img, index) => (
               <CarouselItem
                 key={`caroselItem-${index}`}
-                className="basis-3/5 max-md:basis-4/5"
+                className="basis-3/5 max-md:basis-full"
               >
                 <div
                   className={cn("transition-all duration-500", {
@@ -53,7 +53,7 @@ export default function CarouselProject({ images }: { images: string[] }) {
                     alt={"Foto do Projeto"}
                     width={1500}
                     height={1500}
-                    className="w-full h-[700px] object-cover max-xl:h-[500px] max-md:h-[300px]"
+                    className="w-full h-[700px] object-cover max-xl:h-[500px] max-md:h-[350px]"
                   />
                 </div>
               </CarouselItem>

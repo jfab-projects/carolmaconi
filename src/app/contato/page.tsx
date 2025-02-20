@@ -155,7 +155,9 @@ export default function ContactPage() {
         <Accordion type="single" collapsible className="mt-16 w-full">
           {items.map(({ title, content }, index) => (
             <AccordionItem key={index} value={`faq-${index}`}>
-              <AccordionTrigger className="text-lg">{title}</AccordionTrigger>
+              <AccordionTrigger className="text-lg text-left">
+                {title}
+              </AccordionTrigger>
               <AccordionContent className="text-base">
                 {content}
               </AccordionContent>

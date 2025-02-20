@@ -12,42 +12,42 @@ export default function AboutPage() {
       title: "AUTOCAD",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis dolorem omnis ipsam ab neque.",
-      icon: <PenTool size={64} />,
+      icon: <PenTool size={60} />,
     },
     {
       experience: "8 anos+",
       title: "CORELDRAW",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis dolorem omnis ipsam ab neque.",
-      icon: <PenLine size={64} />,
+      icon: <PenLine size={60} />,
     },
     {
       experience: "8 anos+",
       title: "V-RAY",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis dolorem omnis ipsam ab neque.",
-      icon: <PenBox size={64} />,
+      icon: <PenBox size={60} />,
     },
     {
       experience: "7 anos+",
       title: "PROMOB",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis dolorem omnis ipsam ab neque.",
-      icon: <PenTool size={64} />,
+      icon: <PenTool size={60} />,
     },
     {
       experience: "6 anos+",
       title: "LUMION 3D",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis dolorem omnis ipsam ab neque.",
-      icon: <PenLine size={64} />,
+      icon: <PenLine size={60} />,
     },
     {
       experience: "6 anos+",
       title: "PHOTOSHOP",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis dolorem omnis ipsam ab neque.",
-      icon: <PenBox size={64} />,
+      icon: <PenBox size={60} />,
     },
   ];
 
@@ -56,7 +56,7 @@ export default function AboutPage() {
       <section className="max-w-7xl px-5 m-auto">
         <TitlePage title="Sobre" />
 
-        <div className="flex gap-24 max-lg:gap-16 max-[880px]:flex-col  max-[880px]:items-center">
+        <div className="flex gap-24 max-lg:gap-16 max-[880px]:flex-col max-[880px]:items-center">
           <div>
             <span className="text-muted-foreground">Olá, eu sou</span>
             <h2 className="mt-2">Carolina Maconi Benedito</h2>
@@ -88,7 +88,7 @@ export default function AboutPage() {
         <div className="max-w-7xl px-5 py-16 m-auto">
           <SectionTitle title="Conhecimento" subtitle="Ferramentas" white />
 
-          <ul className="grid grid-cols-3 gap-5 mt-16">
+          <ul className="grid grid-cols-3 gap-5 mt-16 max-md:grid-cols-2 max-sm:grid-cols-1">
             {tools.map((tool, idx) => (
               <li key={`tool-${idx}-${tool.title}`}>
                 <CardTools {...tool} />
@@ -101,7 +101,7 @@ export default function AboutPage() {
       <section className="mt-36 max-w-7xl px-5 m-auto">
         <SectionTitle title="Profissional" subtitle="Experiência" />
 
-        <div className="flex justify-between gap-6 mt-16">
+        <div className="flex justify-between gap-6 mt-16 max-sm:grid max-sm:grid-cols-2">
           <ExperienceNumbers number="10+" title="ANOS DE EXPERIÊNCIA" />
           <ExperienceNumbers number="19+" title="PROJETOS CONCLUÍDOS" />
           <ExperienceNumbers number="33+" title="CLIENTES SATISFEITOS" />

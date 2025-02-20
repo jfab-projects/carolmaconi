@@ -14,7 +14,7 @@ export const CardTools = ({
   icon,
 }: CardToolsProps) => {
   return (
-    <div className="flex flex-col gap-6 relative p-6 bg-primary border border-primary-light text-white">
+    <div className="flex flex-col gap-6 relative p-6 bg-[#242b15] border border-primary text-white">
       <span className="absolute top-2 right-2 text-white/70">{experience}</span>
       {icon}
       <h3 className="font-bold text-2xl">{title}</h3>
