@@ -9,7 +9,6 @@ export const ExperienceNumbers = ({
   number: string;
   title: string;
 }) => {
-  console.log(number);
   return (
     <div className="text-center">
       <h3 className="font-bold text-7xl">

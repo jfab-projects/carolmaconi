@@ -1,4 +1,3 @@
-import AnimatedContent from "@/components/animations/animated-content";
 import { SectionTitle } from "@/components/shared/section-title";
 import { TitlePage } from "@/components/shared/title-page";
 // import { CardTools } from "@/components/sobre/card-tools";
@@ -60,34 +59,28 @@ export default function AboutPage() {
         <div className="flex gap-24 max-lg:gap-16 max-[880px]:flex-col max-[880px]:items-center">
           <div>
             <span className="text-muted-foreground">Olá, eu sou</span>
-            <AnimatedContent config={{ tension: 75, friction: 25 }}>
-              <h2 className="mt-2">Carolina Maconi Benedito</h2>
-            </AnimatedContent>
-            <AnimatedContent delay={100} config={{ tension: 75, friction: 25 }}>
-              <p className="mt-8 text-zinc-700 text-lg">
-                Lorem ipsum dolor sit amet consectetur. Volutpat massa turpis
-                imperdiet ut pharetra phasellus pellentesque. Egestas
-                pellentesque mauris vel sapien odio at ac auctor. Ac urna mauris
-                felis magna aenean faucibus sed. Commodo varius fermentum sit
-                scelerisque purus ac tortor. Tortor ac mauris morbi ut.
-              </p>
-              <p className="mt-3 text-zinc-700 text-lg">
-                Lorem ipsum dolor sit amet consectetur. Volutpat massa turpis
-                imperdiet ut pharetra phasellus pellentesque. Egestas
-                pellentesque mauris vel sapien odio at ac auctor.
-              </p>
-            </AnimatedContent>
+            <h2 className="mt-2">Carolina Maconi Benedito</h2>
+            <p className="mt-8 text-zinc-700 text-lg">
+              Lorem ipsum dolor sit amet consectetur. Volutpat massa turpis
+              imperdiet ut pharetra phasellus pellentesque. Egestas pellentesque
+              mauris vel sapien odio at ac auctor. Ac urna mauris felis magna
+              aenean faucibus sed. Commodo varius fermentum sit scelerisque
+              purus ac tortor. Tortor ac mauris morbi ut.
+            </p>
+            <p className="mt-3 text-zinc-700 text-lg">
+              Lorem ipsum dolor sit amet consectetur. Volutpat massa turpis
+              imperdiet ut pharetra phasellus pellentesque. Egestas pellentesque
+              mauris vel sapien odio at ac auctor.
+            </p>
           </div>
 
-          <AnimatedContent delay={200} config={{ tension: 75, friction: 25 }}>
-            <Image
-              src={"/carol-sobre2.jpg"}
-              alt="Foto Carol"
-              width={1000}
-              height={1000}
-              className="w-[550px] max-w-[550px] max-lg:max-w-[400px] max-[880px]:w-full object-cover"
-            />
-          </AnimatedContent>
+          <Image
+            src={"/carol-sobre2.jpg"}
+            alt="Foto Carol"
+            width={1000}
+            height={1000}
+            className="w-[550px] max-w-[550px] max-lg:max-w-[400px] max-[880px]:w-full object-cover"
+          />
         </div>
       </section>
 
