@@ -36,7 +36,7 @@ export default function CarouselProject({ images }: { images: string[] }) {
         className="w-full m-auto max-w-[90%]"
         opts={{ loop: true }}
       >
-        <CarouselContent>
+        <CarouselContent className="max-h-[85vh]">
           {images &&
             images.map((img, index) => (
               <CarouselItem

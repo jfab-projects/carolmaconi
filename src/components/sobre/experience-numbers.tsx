@@ -1,3 +1,7 @@
+"use client";
+
+import CountUp from "../animations/count-up";
+
 export const ExperienceNumbers = ({
   number,
   title,
@@ -5,9 +9,12 @@ export const ExperienceNumbers = ({
   number: string;
   title: string;
 }) => {
+  console.log(number);
   return (
     <div className="text-center">
-      <h3 className="font-bold text-7xl">{number}</h3>
+      <h3 className="font-bold text-7xl">
+        <CountUp to={+number} duration={1} className="count-up-text" />+
+      </h3>
       <span className="text-primary-light">{title}</span>
     </div>
   );

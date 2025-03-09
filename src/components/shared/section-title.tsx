@@ -1,3 +1,6 @@
+import AnimatedContent from "../animations/animated-content";
+import SplitText from "../animations/split-text";
+
 export const SectionTitle = ({
   title,
   subtitle,
@@ -11,19 +14,26 @@ export const SectionTitle = ({
 }) => {
   return (
     <div>
-      <h2
-        className={`font-normal text-base text-primary uppercase before:[''] before:w-12 before:h-1 before:bg-primary before:inline-block before:mr-2 before:mb-1 ${
-          white && "text-white/50 before:bg-white/50"
-        }`}
+      <AnimatedContent
+        config={{ tension: 75, friction: 30 }}
+        direction="horizontal"
+        reverse
       >
-        {title}
-      </h2>
+        <h2
+          className={`font-normal text-base text-primary uppercase before:[''] before:w-12 before:h-1 before:bg-primary before:inline-block before:mr-2 before:mb-1 ${
+            white && "text-white/50 before:bg-white/50"
+          }`}
+        >
+          {title}
+        </h2>
+      </AnimatedContent>
+
       <h3
         className={`font-bold text-5xl max-lg:text-4xl mt-1 ${
           white && "text-white"
         } ${small && "text-4xl"}`}
       >
-        {subtitle}
+        <SplitText text={subtitle} />
       </h3>
     </div>
   );
