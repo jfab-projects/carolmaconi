@@ -9,14 +9,12 @@ export const About = () => {
         <div className="space-y-8">
           <SectionTitle title="Sobre" subtitle="Carolina Maconi" white small />
           <p className="text-white/90">
-            Lorem ipsum dolor sit amet consectetur. Sit urna risus fusce neque
-            egestas dictumst aliquet facilisis venenatis. Tempor pulvinar
-            imperdiet ultricies non velit viverra dignissim amet. Nisl viverra
-            cras consectetur vel. Id sed feugiat nec amet pulvinar venenatis
-            convallis nisi morbi. Neque ut malesuada vitae vestibulum
-            suspendisse. Dui eget risus facilisi vestibulum dolor vestibulum. At
-            ut ultricies morbi vitae tellus mattis nisl nibh gravida. Lorem
-            ipsum dolor sit amet.
+            Prazer, sou Carol, Arquiteta e Urbanista com mais de 5 anos de
+            atuação no desenvolvimento de projetos personalizados, que aliam
+            estética, funcionalidade e identidade. Já desenvolvi diversos
+            trabalhos na região, e atuo em soluções arquitetônicas residenciais,
+            comerciais e Interiores, sempre com foco na experiência do cliente e
+            na harmonia dos espaços.
           </p>
           <Link
             href="/sobre"

@@ -14,15 +14,16 @@ export const ServicesProvided = () => {
             alt="Projetos Arquitetônicos"
             width={400}
             height={400}
-            className="w-full"
+            className="w-full h-[300px] object-cover"
           />
 
           <div className="bg-white shadow-lg p-4 max-w-[84%] m-auto text-center relative -top-12">
             <h3 className="font-bold text-xl">Projetos Arquitetônicos</h3>
             <p className="opacity-60 mt-3">
-              Desenvolvemos projetos arquitetônicos de alta qualidade, cuidando
-              de cada detalhe para oferecer ambientes funcionais e esteticamente
-              agradáveis.
+              Do terreno à planta final, cuidamos de tudo para que sua obra
+              comece do jeito certo. Desenvolvemos projetos completos,
+              residenciais ou comerciais, com foco em funcionalidade, estética e
+              execução segura.
             </p>
           </div>
         </li>
@@ -33,15 +34,15 @@ export const ServicesProvided = () => {
             alt="Projetos Arquitetônicos"
             width={400}
             height={400}
-            className="w-full"
+            className="w-full h-[300px] object-cover"
           />
 
           <div className="bg-white shadow-lg p-4 max-w-[84%] m-auto text-center relative -top-12">
             <h3 className="font-bold text-xl">Projetos de Interiores</h3>
             <p className="opacity-60 mt-3">
-              Desenvolvemos projetos de interiores de alta qualidade, cuidando
-              de cada detalhe para oferecer ambientes funcionais e esteticamente
-              agradáveis.
+              Ambientes bonitos, práticos e com a sua cara. Pensamos na escolha
+              de cores, móveis, iluminação e acabamentos para transformar seus
+              espaços em lugares acolhedores e funcionais.
             </p>
           </div>
         </li>
@@ -52,15 +53,15 @@ export const ServicesProvided = () => {
             alt="Projetos Arquitetônicos"
             width={650}
             height={650}
-            className="w-full"
+            className="w-full h-[300px] object-cover"
           />
 
           <div className="bg-white shadow-lg p-4 max-w-[84%] m-auto text-center relative -top-12">
             <h3 className="font-bold text-xl">Consultorias</h3>
             <p className="opacity-60 mt-3">
-              Consultorias de arquitetura e interiores, oferecendo soluções
-              personalizadas para cada projeto. Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit.
+              Orientações pontuais para tirar dúvidas e tomar decisões com mais
+              segurança. Ideal para quem precisa de um olhar profissional antes
+              de reformar, decorar ou começar uma obra.
             </p>
           </div>
         </li>

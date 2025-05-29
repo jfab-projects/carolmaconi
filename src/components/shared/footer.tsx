@@ -23,16 +23,19 @@ export const Footer = () => {
         <div className="max-w-[320px] max-lg:m-auto max-sm:text-center">
           <h4 className="text-2xl font-bold">CONTATO</h4>
           <ul className="mt-6 space-y-4">
-            <li>+55 14 99999-0000</li>
-            <li>contato@cmarquitetura@gmail.com</li>
+            <li>+55 14 98122-8433</li>
+            <li>carolmaconi.arq@gmail.com</li>
             <li className="border-t border-white/20 pt-4">
-              Rua nome rua, 99 - Bairro
+              Rua Wilsom Trecenti, 280 - Jardim Village
             </li>
             <li className="border-b border-white/20 pb-4">
               Lençóis Paulista - SP
             </li>
             <li className="flex items-center gap-8 max-sm:justify-center">
-              <Link href="https://www.instagram.com/cmarquitetura/">
+              <Link
+                href="https://www.instagram.com/carolmaconi.arq/"
+                target="_blank"
+              >
                 <Image
                   src="/social/instagram.svg"
                   alt="Instagram"
@@ -40,7 +43,10 @@ export const Footer = () => {
                   height={25}
                 />
               </Link>
-              <Link href="https://www.facebook.com/cmarquitetura/">
+              <Link
+                href="https://www.facebook.com/carolmaconi.arq"
+                target="_blank"
+              >
                 <Image
                   src="/social/facebook.svg"
                   alt="Facebook"
@@ -48,7 +54,7 @@ export const Footer = () => {
                   height={25}
                 />
               </Link>
-              <Link href="https://www.facebook.com/cmarquitetura/">
+              <Link href="https://wa.me/5514981228433" target="_blank">
                 <Image
                   src="/social/whatsapp.svg"
                   alt="Whatsapp"
@@ -82,11 +88,11 @@ export const Footer = () => {
                   Contato
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/links" className="hover:text-primary transition">
                   Links
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

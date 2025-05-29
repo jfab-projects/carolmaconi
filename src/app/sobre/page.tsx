@@ -61,16 +61,14 @@ export default function AboutPage() {
             <span className="text-muted-foreground">Olá, eu sou</span>
             <h2 className="mt-2">Carolina Maconi Benedito</h2>
             <p className="mt-8 text-zinc-700 text-lg">
-              Lorem ipsum dolor sit amet consectetur. Volutpat massa turpis
-              imperdiet ut pharetra phasellus pellentesque. Egestas pellentesque
-              mauris vel sapien odio at ac auctor. Ac urna mauris felis magna
-              aenean faucibus sed. Commodo varius fermentum sit scelerisque
-              purus ac tortor. Tortor ac mauris morbi ut.
+              Prazer, sou Carol, Arquiteta e Urbanista com mais de 5 anos de
+              atuação no desenvolvimento de projetos personalizados, que aliam
+              estética, funcionalidade e identidade.
             </p>
             <p className="mt-3 text-zinc-700 text-lg">
-              Lorem ipsum dolor sit amet consectetur. Volutpat massa turpis
-              imperdiet ut pharetra phasellus pellentesque. Egestas pellentesque
-              mauris vel sapien odio at ac auctor.
+              Já desenvolvi diversos trabalhos na região, e atuo em soluções
+              arquitetônicas residenciais, comerciais e Interiores, sempre com
+              foco na experiência do cliente e na harmonia dos espaços.
             </p>
           </div>
 
@@ -102,10 +100,10 @@ export default function AboutPage() {
         <SectionTitle title="Profissional" subtitle="Experiência" />
 
         <div className="flex justify-between gap-6 mt-16 max-sm:grid max-sm:grid-cols-2">
-          <ExperienceNumbers number="10" title="ANOS DE EXPERIÊNCIA" />
+          <ExperienceNumbers number="5" title="ANOS DE EXPERIÊNCIA" />
           <ExperienceNumbers number="19" title="PROJETOS CONCLUÍDOS" />
           <ExperienceNumbers number="33" title="CLIENTES SATISFEITOS" />
-          <ExperienceNumbers number="47" title="SONHOS REFORMADOS" />
+          <ExperienceNumbers number="22" title="SONHOS REFORMADOS" />
         </div>
       </section>
     </div>

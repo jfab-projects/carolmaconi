@@ -1,7 +1,5 @@
-import { InputCustom } from "@/components/shared/input-custom";
 import { SectionTitle } from "@/components/shared/section-title";
 import SpotlightCard from "@/components/shared/spotlight-card";
-import { TextAreaCustom } from "@/components/shared/textarea-custom";
 import { TitlePage } from "@/components/shared/title-page";
 import {
   Accordion,
@@ -9,33 +7,36 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function ContactPage() {
-  const items = [
+  const faq = [
     {
-      title: "Qual a resposta da dúvida 1?",
-      content: "Resposta da dúvida 1.",
-    },
-    {
-      title: "É possível fazer um orçamento sem pagar?",
-      content: "Sim. As primeiras reuniões com o cliente podem ser gratuitas.",
-    },
-    {
-      title: "Quais os próximos passos?",
+      title: "Quanto custa um projeto arquitetônico completo??",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptatum.",
+        "O valor pode variar bastante dependendo do tipo e tamanho do projeto, das necessidades do cliente e do nível de detalhamento. Por isso, o ideal é marcar uma conversa para entender o que você precisa e, a partir disso, apresentar um orçamento justo e personalizado.",
     },
     {
-      title: "É possível fazer um orçamento sem pagar?",
-      content: "Sim. As primeiras reuniões com o cliente podem ser gratuitas.",
-    },
-    {
-      title: "Quais os próximos passos?",
+      title: "A arquiteta acompanha a obra também?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptatum.",
+        "Sim! O acompanhamento de obra faz parte dos serviços oferecidos. Isso garante que tudo seja executado conforme o projeto, com mais qualidade, segurança e menos dor de cabeça pra você.",
+    },
+    {
+      title:
+        "Não tenho ideia de como quero meu projeto. Você me ajuda com isso?",
+      content:
+        "Claro! Esse é o nosso papel. A gente escuta suas ideias, sua rotina e gostos, e transforma tudo isso em um projeto que tem a sua cara — bonito, funcional e dentro das suas possibilidades.",
+    },
+    {
+      title: "Vocês também fazem projetos comerciais ou só residenciais?",
+      content:
+        "Fazemos os dois! Atendemos tanto projetos residenciais quanto comerciais, como lojas, consultórios, escritórios e outros espaços que precisam unir estética com praticidade.",
+    },
+    {
+      title: "O que está incluso no projeto arquitetônico?",
+      content:
+        "O  projeto inclui o estudo do espaço, planta baixa, layout, cortes, fachadas, detalhamentos, imagens em 3D (renders realistas) e, se necessário, também a compatibilização com outros profissionais. Tudo pensado para facilitar a execução da obra e evitar imprevistos.",
     },
   ];
 
@@ -47,8 +48,9 @@ export default function ContactPage() {
         <div className="grid grid-cols-2 gap-5 min-w-[440px] max-sm:min-w-full">
           <SpotlightCard>
             <Link
-              href="#"
+              href="https://www.instagram.com/carolmaconi.arq/"
               className="flex flex-col justify-between gap-6 h-full"
+              target="_blank"
             >
               <Image
                 src="/social/instagram.svg"
@@ -62,8 +64,9 @@ export default function ContactPage() {
           </SpotlightCard>
           <SpotlightCard>
             <Link
-              href="#"
               className="flex flex-col justify-between gap-6 h-full"
+              href="https://wa.me/5514981228433"
+              target="_blank"
             >
               <Image
                 src="/social/whatsapp.svg"
@@ -77,8 +80,9 @@ export default function ContactPage() {
           </SpotlightCard>
           <SpotlightCard>
             <Link
-              href="#"
               className="flex flex-col justify-between gap-6 h-full"
+              href="https://www.facebook.com/carolmaconi.arq"
+              target="_blank"
             >
               <Image
                 src="/social/facebook.svg"
@@ -92,8 +96,8 @@ export default function ContactPage() {
           </SpotlightCard>
           <SpotlightCard>
             <Link
-              href="#"
               className="flex flex-col justify-between gap-6 h-full"
+              href="mailto:carolmaconi.arq@gmail.com"
             >
               <Image
                 src="/social/email.svg"
@@ -111,7 +115,10 @@ export default function ContactPage() {
           className="w-full grid grid-cols-2 gap-4 max-sm:grid-cols-1"
           spotlightColor="rgba(132, 145, 103, 0.4)"
         >
-          <InputCustom
+          <span className="text-primary-light">
+            Em breve formulário de contato
+          </span>
+          {/* <InputCustom
             label="Nome*"
             id="name"
             name="name"
@@ -145,7 +152,7 @@ export default function ContactPage() {
 
           <Button className="col-span-2 max-sm:col-span-1 rounded-none">
             Enviar Mensagem
-          </Button>
+          </Button> */}
         </SpotlightCard>
       </section>
 
@@ -153,7 +160,7 @@ export default function ContactPage() {
         <SectionTitle title="FAQ" subtitle="Perguntas Frequentes" />
 
         <Accordion type="single" collapsible className="mt-16 w-full">
-          {items.map(({ title, content }, index) => (
+          {faq.map(({ title, content }, index) => (
             <AccordionItem key={index} value={`faq-${index}`}>
               <AccordionTrigger className="text-lg text-left">
                 {title}
