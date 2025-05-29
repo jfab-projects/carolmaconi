@@ -25,9 +25,7 @@ export const Footer = () => {
           <ul className="mt-6 space-y-4">
             <li>+55 14 98122-8433</li>
             <li>carolmaconi.arq@gmail.com</li>
-            <li className="border-t border-white/20 pt-4">
-              Rua Wilsom Trecenti, 280 - Jardim Village
-            </li>
+
             <li className="border-b border-white/20 pb-4">
               Lençóis Paulista - SP
             </li>
