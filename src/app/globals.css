@@ -93,4 +93,13 @@
       hsl(var(--primary-light)) 0%
     );
   }
+
+  .underline-curva::after {
+    display: block;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 22px;
+    background: url("/hero/enfeite-hero.svg") center center no-repeat;
+  }
 }

@@ -5,11 +5,13 @@ import { ServicesProvided } from "@/components/home/services-provided";
 
 export default function HomePage() {
   return (
-    <div className="max-w-7xl px-5 m-auto">
+    <>
       <Hero />
-      <ServicesProvided />
-      <LastProjects />
-      <About />
-    </div>
+      <div className="max-w-7xl px-5 m-auto">
+        <ServicesProvided />
+        <LastProjects />
+        <About />
+      </div>
+    </>
   );
 }
