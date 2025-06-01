@@ -11,12 +11,12 @@ export const Footer = () => {
           className="max-lg:col-span-full max-lg:m-auto max-lg:pb-8"
         >
           <Image
-            src="/logo-cmarq.svg"
+            src="/logo-cm.svg"
             alt="Logo CM Arq"
-            width={250}
-            height={60}
+            width={90}
+            height={90}
             priority
-            className="w-[211px] h-[56px]"
+            className="size-[42px] hover:brightness-110 transition"
           />
         </Link>
 

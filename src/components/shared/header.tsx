@@ -17,12 +17,12 @@ export const Header = () => {
       <div className="max-w-7xl px-5 m-auto flex items-center justify-between gap-4 max-sm:flex-col">
         <Link href="/">
           <Image
-            src="/logo-cm.svg"
+            src="/logo-cmarq.svg"
             alt="Logo CM Arq"
-            width={90}
-            height={90}
+            width={250}
+            height={250}
             priority
-            className="size-[42px] hover:brightness-110 transition"
+            className="w-[211px] h-[56px] hover:brightness-110 transition"
           />
         </Link>
 
