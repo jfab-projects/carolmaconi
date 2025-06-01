@@ -4,6 +4,7 @@ import { Header } from "@/components/shared/header";
 import { Footer } from "@/components/shared/footer";
 import NextTopLoader from "nextjs-toploader";
 import "./globals.css";
+import { FloatingWhatsapp } from "@/components/shared/floating-whatsapp";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -36,6 +37,7 @@ export default function RootLayout({
           height={3}
           shadow="0 0 10px #849167,0 0 5px #849167"
         />
+        <FloatingWhatsapp />
       </body>
     </html>
   );
