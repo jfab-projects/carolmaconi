@@ -89,7 +89,7 @@
   .title-page-gradient {
     background: linear-gradient(
       to right,
-      hsl(var(--background)) 18%,
+      hsl(var(--background)) 9%,
       hsl(var(--primary-light)) 0%
     );
   }

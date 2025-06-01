@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import { Header } from "@/components/shared/header";
-import { CtaFooter } from "@/components/shared/cta-footer";
 import { Footer } from "@/components/shared/footer";
 import NextTopLoader from "nextjs-toploader";
 import "./globals.css";
@@ -29,7 +28,7 @@ export default function RootLayout({
 
         <div>{children}</div>
 
-        <CtaFooter />
+        {/* <CtaFooter /> */}
         <Footer />
 
         <NextTopLoader

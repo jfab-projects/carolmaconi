@@ -115,8 +115,9 @@ export default function ContactPage() {
           className="w-full grid grid-cols-2 gap-4 max-sm:grid-cols-1"
           spotlightColor="rgba(132, 145, 103, 0.4)"
         >
-          <span className="text-primary-light">
-            Em breve formulário de contato
+          <span className="text-primary-light col-span-full">
+            Em breve formulário de contato, mas não exite em mandar um Whatsapp
+            ou Direct no Insta!
           </span>
           {/* <InputCustom
             label="Nome*"
@@ -156,7 +157,7 @@ export default function ContactPage() {
         </SpotlightCard>
       </section>
 
-      <section className="mt-36">
+      <section className="my-36">
         <SectionTitle title="FAQ" subtitle="Perguntas Frequentes" />
 
         <Accordion type="single" collapsible className="mt-16 w-full">

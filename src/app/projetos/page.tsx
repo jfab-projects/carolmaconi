@@ -4,7 +4,7 @@ import { projects } from "@/utils/data";
 
 export default function ProjectsPage() {
   return (
-    <div className="max-w-7xl px-5 m-auto">
+    <div className="max-w-7xl px-5 m-auto mb-16">
       <TitlePage title="Projetos" />
 
       {/* <div className="flex flex-wrap gap-2">

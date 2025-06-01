@@ -96,13 +96,13 @@ export default function AboutPage() {
         </div>
       </section> */}
 
-      <section className="mt-36 max-w-7xl px-5 m-auto">
+      <section className="mt-36 max-w-7xl px-5 m-auto mb-36">
         <SectionTitle title="Profissional" subtitle="Experiência" />
 
         <div className="flex justify-between gap-6 mt-16 max-sm:grid max-sm:grid-cols-2">
           <ExperienceNumbers number="5" title="ANOS DE EXPERIÊNCIA" />
           <ExperienceNumbers number="19" title="PROJETOS CONCLUÍDOS" />
-          <ExperienceNumbers number="33" title="CLIENTES SATISFEITOS" />
+          <ExperienceNumbers number="57" title="CLIENTES SATISFEITOS" />
           <ExperienceNumbers number="22" title="SONHOS REFORMADOS" />
         </div>
       </section>

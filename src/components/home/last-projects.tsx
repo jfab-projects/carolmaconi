@@ -9,11 +9,11 @@ import { CardProject } from "../shared/card-project";
 export const LastProjects = () => {
   return (
     <section className="mt-36">
-      <SectionTitle title="Portfolio" subtitle="Últimos Projetos" />
+      <SectionTitle title="Portfolio" subtitle="Projetos" />
 
-      <ul className="mt-12 grid grid-cols-2 gap-5 max-md:grid-cols-1">
+      <ul className="mt-12 grid grid-cols-3 gap-6 max-lg:grid-cols-2 max-md:grid-cols-1">
         {projects.map((project, idx) => (
-          <li className="mb-12" key={`cardProject-${project.name}-${idx}`}>
+          <li className="mb-10" key={`cardProject-${project.name}-${idx}`}>
             <CardProject {...project} />
           </li>
         ))}

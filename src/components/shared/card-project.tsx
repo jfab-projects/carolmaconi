@@ -25,16 +25,16 @@ export const CardProject = ({ name, images, type, year }: CardProjectProps) => {
           <Image
             src={images[0]}
             alt={name}
-            width={650}
-            height={650}
-            className="h-[550px] w-[550px] object-cover transition-transform duration-300 group-hover:scale-105 max-lg:h-[400px] max-md:w-full"
+            width={1000}
+            height={1000}
+            className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
           />
 
-          <h2 className="text-left mt-6 max-md:text-3xl transition-transform duration-300 group-hover:translate-x-2">
+          <h2 className="text-2xl text-left mt-4 max-md:text-3xl transition-transform duration-300 group-hover:translate-x-2">
             {name}
           </h2>
 
-          <Separator className="my-4" />
+          <Separator className="my-2" />
 
           <div className="flex justify-between gap-2">
             <span className="transition-transform duration-300 group-hover:translate-x-2">
