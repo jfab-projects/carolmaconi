@@ -25,8 +25,8 @@ export const CardProject = ({ name, images, type, year }: CardProjectProps) => {
           <Image
             src={images[0]}
             alt={name}
-            width={1000}
-            height={1000}
+            width={900}
+            height={900}
             className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
           />
 
@@ -46,7 +46,7 @@ export const CardProject = ({ name, images, type, year }: CardProjectProps) => {
           </div>
         </div>
       </DialogTrigger>
-      <DialogContent className="min-w-[80%] max-md:max-w-[90%]">
+      <DialogContent className="max-w-[90%]">
         <DialogTitle className="sr-only">projeto</DialogTitle>
         <DialogDescription className="sr-only"></DialogDescription>
 

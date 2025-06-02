@@ -33,7 +33,7 @@ export default function CarouselProject({ images }: { images: string[] }) {
     <div>
       <Carousel
         setApi={setApi}
-        className="w-full m-auto max-w-[90%]"
+        className="w-full m-auto max-w-[95%]"
         opts={{ loop: true }}
       >
         <CarouselContent className="max-h-[85vh]">
@@ -51,9 +51,10 @@ export default function CarouselProject({ images }: { images: string[] }) {
                   <Image
                     src={img}
                     alt={"Foto do Projeto"}
-                    width={1500}
-                    height={1500}
-                    className="w-full h-[700px] object-cover max-xl:h-[500px] max-md:h-[350px]"
+                    width={1600}
+                    height={1600}
+                    loading="lazy"
+                    className="w-full h-[600px] object-cover max-xl:h-[500px] max-md:h-[350px]"
                   />
                 </div>
               </CarouselItem>

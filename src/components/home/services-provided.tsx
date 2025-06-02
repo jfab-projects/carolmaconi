@@ -1,4 +1,3 @@
-import React from "react";
 import { SectionTitle } from "../shared/section-title";
 import Image from "next/image";
 
@@ -12,18 +11,18 @@ export const ServicesProvided = () => {
           <Image
             src="/services-provided/servico-1.jpg"
             alt="Projetos Arquitetônicos"
-            width={400}
-            height={400}
+            width={600}
+            height={600}
             className="w-full h-[300px] object-cover"
           />
 
           <div className="bg-white shadow-lg p-4 max-w-[84%] m-auto text-center relative -top-12">
             <h3 className="font-bold text-xl">Projetos Arquitetônicos</h3>
             <p className="opacity-60 mt-3">
-              Do terreno à planta final, cuidamos de tudo para que sua obra
-              comece do jeito certo. Desenvolvemos projetos completos,
-              residenciais ou comerciais, com foco em funcionalidade, estética e
-              execução segura.
+              Seja uma reforma ou partindo do terreno à planta final, cuidamos
+              de tudo para que sua obra saia como planejado. Desenvolvemos
+              projetos, residenciais e comerciais, com foco em funcionalidade,
+              estética e execução fiel ao projeto.
             </p>
           </div>
         </li>
@@ -32,17 +31,18 @@ export const ServicesProvided = () => {
           <Image
             src="/services-provided/servico-2.jpg"
             alt="Projetos Arquitetônicos"
-            width={400}
-            height={400}
-            className="w-full h-[300px] object-cover"
+            width={600}
+            height={600}
+            className="w-full h-[300px] object-cover "
           />
 
           <div className="bg-white shadow-lg p-4 max-w-[84%] m-auto text-center relative -top-12">
             <h3 className="font-bold text-xl">Projetos de Interiores</h3>
             <p className="opacity-60 mt-3">
-              Ambientes bonitos, práticos e com a sua cara. Pensamos na escolha
-              de cores, móveis, iluminação e acabamentos para transformar seus
-              espaços em lugares acolhedores e funcionais.
+              Projetamos cada ambiente com foco no desejo do cliente, desde o
+              estudo de layout, até a escolha dos acabamentos e iluminação, para
+              transformar seus espaços em locais acolhedores e funcionais.
+              Resultado: Ambientes bonitos, práticos e com a sua cara.
             </p>
           </div>
         </li>
@@ -51,9 +51,9 @@ export const ServicesProvided = () => {
           <Image
             src="/services-provided/servico-3.jpg"
             alt="Projetos Arquitetônicos"
-            width={650}
-            height={650}
-            className="w-full h-[300px] object-cover"
+            width={600}
+            height={600}
+            className="w-full h-[300px] object-cover "
           />
 
           <div className="bg-white shadow-lg p-4 max-w-[84%] m-auto text-center relative -top-12">

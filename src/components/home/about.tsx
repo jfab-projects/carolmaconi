@@ -27,8 +27,8 @@ export const About = () => {
       <Image
         src="/carol-sobre.jpeg"
         alt="Carol Maconi"
-        width={1200}
-        height={1200}
+        width={1000}
+        height={1000}
         className="object-cover h-full max-h-[600px]"
       />
     </section>

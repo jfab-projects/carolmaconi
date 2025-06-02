@@ -70,4 +70,105 @@ export const projects = [
     type: "Arquitetônico e Interiores",
     year: "2025",
   },
+
+  {
+    name: "Casa JB",
+    images: [
+      "/projects/casa-jb/CASA JB - 1.png",
+      "/projects/casa-jb/CASA JB - 2.png",
+      "/projects/casa-jb/CASA JB - 3.png",
+      "/projects/casa-jb/CASA JB - 4.png",
+      "/projects/casa-jb/CASA JB - 5.png",
+    ],
+    type: "Reforma",
+    year: "2025",
+  },
+
+  {
+    name: "Dormitórios Infantis",
+    images: [
+      "/projects/dormitorios-infantis/ROMEO-1.png",
+      "/projects/dormitorios-infantis/ROMEO-2.png",
+      "/projects/dormitorios-infantis/ROMEO-3.png",
+      "/projects/dormitorios-infantis/QUARTO ISIS_1.png",
+      "/projects/dormitorios-infantis/QUARTO ISIS_2.png",
+      "/projects/dormitorios-infantis/QUARTO ISIS_3.png",
+      "/projects/dormitorios-infantis/QUARTO MANU_1.png",
+      "/projects/dormitorios-infantis/QUARTO MANU_2.png",
+      "/projects/dormitorios-infantis/QUARTO MANU_3.png",
+      "/projects/dormitorios-infantis/2.png",
+      "/projects/dormitorios-infantis/3.png",
+      "/projects/dormitorios-infantis/4.png",
+    ],
+    type: "Arquitetônico e Interiores",
+    year: "2025",
+  },
+
+  {
+    name: "Hábil",
+    images: [
+      "/projects/habil/HABIL__1.png",
+      "/projects/habil/HABIL__2.png",
+      "/projects/habil/HABIL__3.png",
+      "/projects/habil/HABIL__4.png",
+      "/projects/habil/HABIL__5.png",
+    ],
+    type: "Reforma e Interiores",
+    year: "2024",
+  },
+
+  {
+    name: "Cia da Esfiha",
+    images: [
+      "/projects/cia-esfiha/cia-1.png",
+      "/projects/cia-esfiha/cia-2.png",
+      "/projects/cia-esfiha/cia-3.png",
+      "/projects/cia-esfiha/cia-4.png",
+      "/projects/cia-esfiha/cia-5.png",
+    ],
+    type: "Arquitetônico e Interiores",
+    year: "2025",
+  },
+
+  {
+    name: "Skimell Areiópolis",
+    images: [
+      "/projects/skimell-areiopolis/skimell-are-1.png",
+      "/projects/skimell-areiopolis/skimell-are-2.png",
+      "/projects/skimell-areiopolis/skimell-are-3.jpg",
+      "/projects/skimell-areiopolis/skimell-are-4.jpg",
+      "/projects/skimell-areiopolis/skimell-are-5.jpg",
+      "/projects/skimell-areiopolis/skimell-are-6.jpg",
+      "/projects/skimell-areiopolis/skimell-are-7.jpg",
+    ],
+    type: "Interiores",
+    year: "2024",
+  },
+
+  {
+    name: "Suítes",
+    images: [
+      "/projects/suites/suite-1.png",
+      "/projects/suites/suite-2.png",
+      "/projects/suites/suite-3.png",
+      "/projects/suites/suite-4.png",
+      "/projects/suites/suite-5.png",
+      "/projects/suites/suite-6.png",
+      "/projects/suites/suite-7.png",
+    ],
+    type: "Arquitetônico e Interiores",
+    year: "2024",
+  },
+
+  {
+    name: "Casa Campo",
+    images: [
+      "/projects/casa-campo/casa-campo-1.png",
+      "/projects/casa-campo/casa-campo-2.png",
+      "/projects/casa-campo/casa-campo-3.png",
+      "/projects/casa-campo/casa-campo-4.png",
+    ],
+    type: "Arquitetônico",
+    year: "2024",
+  },
 ];

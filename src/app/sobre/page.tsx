@@ -59,11 +59,11 @@ export default function AboutPage() {
         <div className="flex gap-24 max-lg:gap-16 max-[880px]:flex-col max-[880px]:items-center">
           <div>
             <span className="text-muted-foreground">Olá, eu sou</span>
-            <h2 className="mt-2">Carolina Maconi Benedito</h2>
+            <h2 className="mt-2">Carol Maconi</h2>
             <p className="mt-8 text-zinc-700 text-lg">
-              Prazer, sou Carol, Arquiteta e Urbanista com mais de 5 anos de
-              atuação no desenvolvimento de projetos personalizados, que aliam
-              estética, funcionalidade e identidade.
+              Arquiteta e Urbanista com mais de 5 anos de atuação no
+              desenvolvimento de projetos personalizados, que aliam estética,
+              funcionalidade e identidade.
             </p>
             <p className="mt-3 text-zinc-700 text-lg">
               Já desenvolvi diversos trabalhos na região, e atuo em soluções
