@@ -54,7 +54,7 @@ export default function CarouselProject({ images }: { images: string[] }) {
                     width={1600}
                     height={1600}
                     loading="lazy"
-                    className="w-full h-[600px] object-cover max-xl:h-[500px] max-md:h-[350px]"
+                    className="w-full h-[650px] object-cover max-xl:h-[500px] max-md:h-[350px]"
                   />
                 </div>
               </CarouselItem>

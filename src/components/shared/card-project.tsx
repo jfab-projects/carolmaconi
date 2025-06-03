@@ -46,7 +46,7 @@ export const CardProject = ({ name, images, type, year }: CardProjectProps) => {
           </div>
         </div>
       </DialogTrigger>
-      <DialogContent className="max-w-[90%]">
+      <DialogContent className="max-w-[85%]">
         <DialogTitle className="sr-only">projeto</DialogTitle>
         <DialogDescription className="sr-only"></DialogDescription>
 

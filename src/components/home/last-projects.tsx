@@ -3,8 +3,9 @@
 import React from "react";
 import { SectionTitle } from "../shared/section-title";
 import { ButtonLink } from "../shared/button-link";
-import { projects } from "@/utils/data";
+
 import { CardProject } from "../shared/card-project";
+import { projects } from "@/utils/home-projects";
 
 export const LastProjects = () => {
   return (

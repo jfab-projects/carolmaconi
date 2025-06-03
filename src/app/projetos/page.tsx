@@ -1,6 +1,6 @@
 import { CardProject } from "@/components/shared/card-project";
 import { TitlePage } from "@/components/shared/title-page";
-import { projects } from "@/utils/data";
+import { projects } from "@/utils/all-projects";
 
 export default function ProjectsPage() {
   return (

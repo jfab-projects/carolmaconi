@@ -41,6 +41,20 @@ export const projects = [
   },
 
   {
+    name: "Casa R&M",
+    images: [
+      "/projects/casa-rm/CASA RM 1.png",
+      "/projects/casa-rm/CASA RM 2.png",
+      "/projects/casa-rm/CASA RM 3.png",
+      "/projects/casa-rm/CASA RM 4.png",
+      "/projects/casa-rm/CASA RM 5.png",
+      "/projects/casa-rm/CASA RM 6.jpg",
+    ],
+    type: "Interiores",
+    year: "2023",
+  },
+
+  {
     name: "Beto Godoy",
     images: [
       "/projects/beto-godoy/beto-1.jpg",

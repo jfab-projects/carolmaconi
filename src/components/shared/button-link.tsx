@@ -22,7 +22,7 @@ export const ButtonLink = ({
         "bg-primary text-white font-medium text-lg px-6 py-2 flex items-center gap-2 hover:brightness-110 transition",
         className,
         variant === "ghost-black" &&
-          "bg-transparent border border-foreground text-black hover:bg-primary hover:text-white",
+          "bg-transparent border border-foreground text-black hover:bg-primary hover:text-white hover:border-primary",
         variant === "ghost-white" &&
           "bg-transparent border border-white text-white hover:bg-primary hover:border-primary"
       )}
