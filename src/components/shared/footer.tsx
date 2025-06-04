@@ -11,7 +11,7 @@ export const Footer = () => {
           className="max-lg:col-span-full max-lg:m-auto max-lg:pb-8"
         >
           <Image
-            src="/logo-cm.svg"
+            src="/logo-cm-branca.svg"
             alt="Logo CM Arq"
             width={90}
             height={90}
