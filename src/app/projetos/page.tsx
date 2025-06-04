@@ -1,3 +1,4 @@
+import AnimatedContent from "@/components/animations/animated-content";
 import { CardProject } from "@/components/shared/card-project";
 import { TitlePage } from "@/components/shared/title-page";
 import { projects } from "@/utils/all-projects";
@@ -15,9 +16,11 @@ export default function ProjectsPage() {
 
       <ul className="mt-5 grid grid-cols-2 gap-5 max-md:grid-cols-1">
         {projects.map((project, idx) => (
-          <li className="mb-12" key={`cardProject-${project.name}-${idx}`}>
-            <CardProject {...project} />
-          </li>
+          <AnimatedContent key={`cardProject-${project.name}-${idx}`}>
+            <li className="mb-12">
+              <CardProject {...project} />
+            </li>
+          </AnimatedContent>
         ))}
       </ul>
     </div>

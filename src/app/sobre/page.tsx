@@ -1,3 +1,4 @@
+import AnimatedContent from "@/components/animations/animated-content";
 import { SectionTitle } from "@/components/shared/section-title";
 import { TitlePage } from "@/components/shared/title-page";
 // import { CardTools } from "@/components/sobre/card-tools";
@@ -57,7 +58,7 @@ export default function AboutPage() {
         <TitlePage title="Sobre" />
 
         <div className="flex gap-24 max-lg:gap-16 max-[880px]:flex-col max-[880px]:items-center">
-          <div>
+          <AnimatedContent>
             <span className="text-muted-foreground">Olá, eu sou</span>
             <h2 className="mt-2">Carol Maconi</h2>
             <p className="mt-8 text-zinc-700 text-lg">
@@ -70,15 +71,17 @@ export default function AboutPage() {
               arquitetônicas residenciais, comerciais e Interiores, sempre com
               foco na experiência do cliente e na harmonia dos espaços.
             </p>
-          </div>
+          </AnimatedContent>
 
-          <Image
-            src={"/carol-sobre2.jpg"}
-            alt="Foto Carol"
-            width={1000}
-            height={1000}
-            className="w-[550px] max-w-[550px] max-lg:max-w-[400px] max-[880px]:w-full object-cover"
-          />
+          <AnimatedContent>
+            <Image
+              src={"/carol-sobre2.jpg"}
+              alt="Foto Carol"
+              width={1000}
+              height={1000}
+              className="w-[550px] max-w-[550px] max-lg:max-w-[400px] max-[880px]:w-full object-cover"
+            />
+          </AnimatedContent>
         </div>
       </section>
 

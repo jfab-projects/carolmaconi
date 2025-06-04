@@ -3,6 +3,7 @@ import { MoveUpRight } from "lucide-react";
 import { ButtonLink } from "../shared/button-link";
 import { ImagesSlider } from "../ui/images-slider";
 import Link from "next/link";
+import AnimatedContent from "../animations/animated-content";
 
 export const Hero = () => {
   const imgs = [
@@ -20,31 +21,37 @@ export const Hero = () => {
         overlayClassName="bg-black/65"
       >
         <div className="text-muted z-50 flex flex-col items-center p-8 max-w-[700px] m-auto text-center max-md:p-5">
-          <h1 className="font-bold mb-5">
-            Seu Espaço com Estilo e{" "}
-            <span className="inline-block underline-curva text-[#93A66B]">
-              Personalidade
-            </span>
-          </h1>
+          <AnimatedContent delay={0.3}>
+            <h1 className="font-bold mb-5">
+              Seu Espaço com Estilo e{" "}
+              <span className="inline-block underline-curva text-[#93A66B]">
+                Personalidade
+              </span>
+            </h1>
+          </AnimatedContent>
 
-          <p className="mb-10 text-primary-foreground/90">
-            Cada projeto é único porque cada pessoa é única. Unimos
-            criatividade, técnica e sensibilidade para criar ambientes que
-            refletem quem você é, funcionais, bonitos e feitos com carinho, do
-            começo ao fim.
-          </p>
+          <AnimatedContent delay={0.5}>
+            <p className="mb-10 text-primary-foreground/90">
+              Cada projeto é único porque cada pessoa é única. Unimos
+              criatividade, técnica e sensibilidade para criar ambientes que
+              refletem quem você é, funcionais, bonitos e feitos com carinho, do
+              começo ao fim.
+            </p>
+          </AnimatedContent>
 
-          <div className="flex items-center gap-4 max-[1060px]:justify-center">
-            <ButtonLink href={"/contato"} icon={<MoveUpRight size={18} />}>
-              Contato
-            </ButtonLink>
-            <Link
-              href="/projetos"
-              className="font-bold underline underline-offset-4 hover:text-primary-light transition"
-            >
-              Ver Projetos
-            </Link>
-          </div>
+          <AnimatedContent delay={0.7}>
+            <div className="flex items-center gap-4 max-[1060px]:justify-center">
+              <ButtonLink href={"/contato"} icon={<MoveUpRight size={18} />}>
+                Contato
+              </ButtonLink>
+              <Link
+                href="/projetos"
+                className="font-bold underline underline-offset-4 hover:text-primary-light transition"
+              >
+                Ver Projetos
+              </Link>
+            </div>
+          </AnimatedContent>
         </div>
       </ImagesSlider>
     </main>

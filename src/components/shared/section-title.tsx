@@ -1,3 +1,5 @@
+import AnimatedContent from "../animations/animated-content";
+
 export const SectionTitle = ({
   title,
   subtitle,
@@ -10,7 +12,7 @@ export const SectionTitle = ({
   small?: boolean;
 }) => {
   return (
-    <div>
+    <AnimatedContent direction="horizontal" reverse duration={1.5}>
       <h2
         className={`font-normal text-base text-primary uppercase before:[''] before:w-12 before:h-1 before:bg-primary before:inline-block before:mr-2 before:mb-1 ${
           white && "text-white/50 before:bg-white/50"
@@ -26,6 +28,6 @@ export const SectionTitle = ({
       >
         {subtitle}
       </h3>
-    </div>
+    </AnimatedContent>
   );
 };

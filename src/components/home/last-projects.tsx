@@ -6,6 +6,7 @@ import { ButtonLink } from "../shared/button-link";
 
 import { CardProject } from "../shared/card-project";
 import { projects } from "@/utils/home-projects";
+import AnimatedContent from "../animations/animated-content";
 
 export const LastProjects = () => {
   return (
@@ -14,9 +15,11 @@ export const LastProjects = () => {
 
       <ul className="mt-12 grid grid-cols-3 gap-6 max-lg:grid-cols-2 max-md:grid-cols-1">
         {projects.map((project, idx) => (
-          <li className="mb-10" key={`cardProject-${project.name}-${idx}`}>
-            <CardProject {...project} />
-          </li>
+          <AnimatedContent key={`cardProject-${project.name}-${idx}`}>
+            <li className="mb-10">
+              <CardProject {...project} />
+            </li>
+          </AnimatedContent>
         ))}
       </ul>
 
