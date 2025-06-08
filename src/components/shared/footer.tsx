@@ -16,7 +16,7 @@ export const Footer = () => {
             width={90}
             height={90}
             priority
-            className="size-[42px] hover:brightness-110 transition"
+            className="size-16 hover:brightness-110 transition"
           />
         </Link>
 
