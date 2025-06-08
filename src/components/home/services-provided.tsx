@@ -16,6 +16,7 @@ export const ServicesProvided = () => {
               width={600}
               height={600}
               className="w-full h-[300px] object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
 
             <div className="bg-white shadow-lg p-4 max-w-[84%] m-auto text-center relative -top-12">
@@ -37,7 +38,8 @@ export const ServicesProvided = () => {
               alt="Projetos Arquitetônicos"
               width={600}
               height={600}
-              className="w-full h-[300px] object-cover "
+              className="w-full h-[300px] object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
 
             <div className="bg-white shadow-lg p-4 max-w-[84%] m-auto text-center relative -top-12">
@@ -60,7 +62,8 @@ export const ServicesProvided = () => {
               alt="Projetos Arquitetônicos"
               width={600}
               height={600}
-              className="w-full h-[300px] object-cover "
+              className="w-full h-[300px] object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
 
             <div className="bg-white shadow-lg p-4 max-w-[84%] m-auto text-center relative -top-12">

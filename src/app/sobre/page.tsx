@@ -59,17 +59,39 @@ export default function AboutPage() {
 
         <div className="flex gap-24 max-lg:gap-16 max-[880px]:flex-col max-[880px]:items-center">
           <AnimatedContent>
-            <span className="text-muted-foreground">Olá, eu sou</span>
+            <span className="text-muted-foreground">Sobre</span>
             <h2 className="mt-2">Carol Maconi</h2>
-            <p className="mt-8 text-zinc-700 text-lg">
-              Arquiteta e Urbanista com mais de 5 anos de atuação no
-              desenvolvimento de projetos personalizados, que aliam estética,
-              funcionalidade e identidade.
+            <p className="mt-8 text-zinc-700">
+              Formada em Arquitetura e Urbanismo pela Universidade do Sagrado
+              Coração de Bauru (SP) em 2017, Carol Maconi traz uma trajetória
+              marcada pela versatilidade e dedicação ao ofício. Antes de
+              consolidar sua atuação na arquitetura, Carol acumulou experiências
+              em áreas complementares, como projetista e no setor de vendas em
+              loja especializada em gesso, além de ter passado por diferentes
+              escritórios de arquitetura, o que contribuiu para a construção de
+              uma visão ampla e prática do mercado.
             </p>
-            <p className="mt-3 text-zinc-700 text-lg">
-              Já desenvolvi diversos trabalhos na região, e atuo em soluções
-              arquitetônicas residenciais, comerciais e Interiores, sempre com
-              foco na experiência do cliente e na harmonia dos espaços.
+            <p className="mt-3 text-zinc-700">
+              Há mais de cinco anos, Carol atua de forma autoral no
+              desenvolvimento de projetos personalizados que aliam estética,
+              funcionalidade e identidade. Com sensibilidade e atenção aos
+              detalhes, ela já assinou diversos trabalhos na região, sempre
+              prezando por soluções que valorizem a experiência do cliente e a
+              harmonia dos espaços.
+            </p>
+            <p className="mt-3 text-zinc-700">
+              Seja em projetos residenciais, comerciais ou de interiores, sua
+              abordagem combina criatividade, técnica e empatia — resultando em
+              ambientes únicos, pensados para refletir o estilo de vida e as
+              necessidades de cada cliente.
+            </p>
+            <p className="mt-3 text-zinc-700">
+              Se você está planejando um novo projeto ou deseja transformar um
+              ambiente com soluções arquitetônicas personalizadas, será um
+              prazer conversar com você!
+            </p>
+            <p className="mt-3 text-zinc-700">
+              ENTRE EM CONTATO: (14) 98122-8433
             </p>
           </AnimatedContent>
 
@@ -80,6 +102,7 @@ export default function AboutPage() {
               width={1000}
               height={1000}
               className="w-[550px] max-w-[550px] max-lg:max-w-[400px] max-[880px]:w-full object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </AnimatedContent>
         </div>

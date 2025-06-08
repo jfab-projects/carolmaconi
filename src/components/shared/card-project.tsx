@@ -15,19 +15,30 @@ type CardProjectProps = {
   images: string[];
   type: string;
   year: string;
+  finished: boolean;
 };
 
-export const CardProject = ({ name, images, type, year }: CardProjectProps) => {
+export const CardProject = ({
+  name,
+  images,
+  type,
+  year,
+  finished,
+}: CardProjectProps) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <div className="group cursor-pointer overflow-hidden">
+        <div className="group cursor-pointer overflow-hidden relative">
+          <span className="text-sm text-white font-medium absolute top-2 left-2 bg-black/50 px-2 py-1 z-10">
+            {finished ? "Finalizado" : "Em andamento"}
+          </span>
           <Image
             src={images[0]}
             alt={name}
             width={900}
             height={900}
             className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
 
           <h2 className="text-2xl text-left mt-4 max-md:text-3xl transition-transform duration-300 group-hover:translate-x-2">

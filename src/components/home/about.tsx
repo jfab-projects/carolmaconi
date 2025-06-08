@@ -22,7 +22,7 @@ export const About = () => {
               href="/sobre"
               className="font-bold underline underline-offset-4 text-white inline-block hover:text-[#E0E4D5] transition"
             >
-              Ver Mais
+              Conheça mais sobre mim
             </Link>
           </AnimatedContent>
         </div>
@@ -34,6 +34,7 @@ export const About = () => {
         width={1000}
         height={1000}
         className="object-cover h-full max-h-[600px]"
+        sizes="(max-width: 768px) 100vw, 50vw"
       />
     </section>
   );

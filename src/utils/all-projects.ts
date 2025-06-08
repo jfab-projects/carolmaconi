@@ -9,8 +9,9 @@ export const projects = [
       "/projects/skimell-lp/skimell-lp-5.jpg",
       "/projects/skimell-lp/skimell-lp-6.jpg",
     ],
-    type: "Arquitetônico e Interiores",
+    type: "Projeto Arquitetônico + Interiores",
     year: "2021",
+    finished: true,
   },
 
   {
@@ -22,8 +23,9 @@ export const projects = [
       "/projects/gourmet-nj/nj-4.png",
       "/projects/gourmet-nj/nj-5.png",
     ],
-    type: "Interiores",
-    year: "2021",
+    type: "Projeto de Interiores",
+    year: "2024",
+    finished: false,
   },
 
   {
@@ -36,8 +38,9 @@ export const projects = [
       "/projects/closet-femme/closet-5.jpg",
       "/projects/closet-femme/closet-6.jpg",
     ],
-    type: "Interiores",
+    type: "Projeto de Reforma + Interiores",
     year: "2025",
+    finished: true,
   },
 
   {
@@ -50,8 +53,9 @@ export const projects = [
       "/projects/casa-rm/CASA RM 5.png",
       "/projects/casa-rm/CASA RM 6.jpg",
     ],
-    type: "Interiores",
-    year: "2023",
+    type: "Projeto Arquitetônico + Interiores",
+    year: "2025",
+    finished: false,
   },
 
   {
@@ -65,8 +69,9 @@ export const projects = [
       "/projects/beto-godoy/beto-6.png",
       "/projects/beto-godoy/beto-7.png",
     ],
-    type: "Interiores",
+    type: "Projeto de Interiores",
     year: "2023",
+    finished: true,
   },
 
   {
@@ -81,8 +86,9 @@ export const projects = [
       "/projects/casa-el/el-7.png",
       "/projects/casa-el/el-8.png",
     ],
-    type: "Arquitetônico e Interiores",
+    type: "Projeto Arquitetônico + Interiores",
     year: "2025",
+    finished: false,
   },
 
   {
@@ -94,8 +100,9 @@ export const projects = [
       "/projects/casa-jb/CASA JB - 4.png",
       "/projects/casa-jb/CASA JB - 5.png",
     ],
-    type: "Reforma",
-    year: "2025",
+    type: "Projeto de Reforma + Interiores",
+    year: "2023",
+    finished: false,
   },
 
   {
@@ -114,8 +121,9 @@ export const projects = [
       "/projects/dormitorios-infantis/3.png",
       "/projects/dormitorios-infantis/4.png",
     ],
-    type: "Arquitetônico e Interiores",
+    type: "Projeto de Interiores",
     year: "2025",
+    finished: false,
   },
 
   {
@@ -127,8 +135,9 @@ export const projects = [
       "/projects/habil/HABIL__4.png",
       "/projects/habil/HABIL__5.png",
     ],
-    type: "Reforma e Interiores",
+    type: "Projeto de Reforma + Interiores",
     year: "2024",
+    finished: true,
   },
 
   {
@@ -140,8 +149,9 @@ export const projects = [
       "/projects/cia-esfiha/cia-4.png",
       "/projects/cia-esfiha/cia-5.png",
     ],
-    type: "Arquitetônico e Interiores",
+    type: "Projeto Arquitetônico + Interiores",
     year: "2025",
+    finished: false,
   },
 
   {
@@ -155,8 +165,9 @@ export const projects = [
       "/projects/skimell-areiopolis/skimell-are-6.jpg",
       "/projects/skimell-areiopolis/skimell-are-7.jpg",
     ],
-    type: "Interiores",
+    type: "Projeto de Interiores",
     year: "2024",
+    finished: true,
   },
 
   {
@@ -170,8 +181,9 @@ export const projects = [
       "/projects/suites/suite-6.png",
       "/projects/suites/suite-7.png",
     ],
-    type: "Arquitetônico e Interiores",
+    type: "Projeto de Interiores",
     year: "2024",
+    finished: false,
   },
 
   {
@@ -182,7 +194,8 @@ export const projects = [
       "/projects/casa-campo/casa-campo-3.png",
       "/projects/casa-campo/casa-campo-4.png",
     ],
-    type: "Arquitetônico",
+    type: "Projeto Arquitetônico + Interiores",
     year: "2024",
+    finished: false,
   },
 ];
