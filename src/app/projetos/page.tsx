@@ -2,6 +2,16 @@ import AnimatedContent from "@/components/animations/animated-content";
 import { CardProject } from "@/components/shared/card-project";
 import { TitlePage } from "@/components/shared/title-page";
 import { projects } from "@/utils/all-projects";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projetos de Arquitetura",
+  description:
+    "Conheça os projetos residenciais, comerciais e interiores criados por Carol Maconi, arquiteta em Lençóis Paulista.",
+  alternates: {
+    canonical: "https://carolmaconi.com.br/projetos",
+  },
+};
 
 export default function ProjectsPage() {
   return (

@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import { Header } from "@/components/shared/header";
 import { Footer } from "@/components/shared/footer";
 import NextTopLoader from "nextjs-toploader";
 import "./globals.css";
 import { FloatingWhatsapp } from "@/components/shared/floating-whatsapp";
+import { Metadata } from "next";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -13,8 +13,30 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Carol Maconi Arquitetura",
-  description: "Projetos e Serviços de Arquitetura | CM ARQ",
+  title: {
+    default:
+      "Arquiteta Carol Maconi | Projetos residenciais e comerciais em Lençóis Paulista",
+    template: "%s | Arquiteta Carol Maconi",
+  },
+  description:
+    "Arquiteta com experiência em projetos residenciais e comerciais em Lençóis Paulista e região.",
+  keywords: [
+    "Arquiteta Carol Maconi",
+    "Projetos de arquitetura",
+    "Arquiteta em Lençóis Paulista",
+    "Arquitetura residencial Lençóis Paulista",
+    "Design de interiores Lençóis Paulista",
+    "Projeto comercial personalizado",
+    "Arquitetura com estilo e personalidade",
+    "Projetos de interiores",
+    "Projeto comercial Lençóis Paulista",
+    "Carol Maconi",
+  ],
+  applicationName: "Arquiteta Carol Maconi",
+  metadataBase: new URL("https://carolmaconi.com.br/"),
+  alternates: {
+    canonical: "https://carolmaconi.com.br/",
+  },
 };
 
 export default function RootLayout({

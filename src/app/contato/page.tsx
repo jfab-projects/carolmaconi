@@ -7,8 +7,18 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Contato",
+  description:
+    "Entre em contato com a arquiteta Carol Maconi e solicite um orçamento para seu projeto residencial, comercial ou interiores em Lençóis Paulista.",
+  alternates: {
+    canonical: "https://carolmaconi.com.br/contato",
+  },
+};
 
 export default function ContactPage() {
   const faq = [

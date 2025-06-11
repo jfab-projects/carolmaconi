@@ -3,8 +3,18 @@ import { SectionTitle } from "@/components/shared/section-title";
 import { TitlePage } from "@/components/shared/title-page";
 // import { CardTools } from "@/components/sobre/card-tools";
 import { ExperienceNumbers } from "@/components/sobre/experience-numbers";
+import { Metadata } from "next";
 // import { PenBox, PenLine, PenTool } from "lucide-react";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Sobre Carol Maconi",
+  description:
+    "Saiba mais sobre a trajetória da arquiteta Carol Maconi, seu estilo de trabalho e serviços.",
+  alternates: {
+    canonical: "https://carolmaconi.com.br/sobre",
+  },
+};
 
 export default function AboutPage() {
   // const tools = [
