@@ -8,15 +8,15 @@ export const Footer = () => {
       <div className="max-w-7xl m-auto pt-16 pb-8 px-5 grid grid-cols-3 gap-5 text-accent max-lg:grid-cols-2 max-sm:grid-cols-1">
         <Link
           href="/"
-          className="max-lg:col-span-full max-lg:m-auto max-lg:pb-8"
+          className="max-lg:col-span-full max-lg:m-auto max-lg:pb-8 self-center"
         >
           <Image
             src="/logo-cm-branca.svg"
             alt="Logo CM Arq"
-            width={90}
-            height={90}
+            width={128}
+            height={128}
             priority
-            className="size-16 hover:brightness-110 transition"
+            className="size-24 hover:brightness-110 transition max-md:size-20"
           />
         </Link>
 
