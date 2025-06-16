@@ -32,10 +32,10 @@ export const Hero = () => {
 
           <AnimatedContent delay={0.5}>
             <p className="mb-10 text-primary-foreground/90">
-              Cada projeto é único porque cada pessoa é única. Unimos
-              criatividade, técnica e sensibilidade para criar ambientes que
-              refletem quem você é, funcionais, bonitos e feitos com carinho, do
-              começo ao fim.
+              Nossa missão é projetar espaços funcionais, unindo criatividade,
+              técnica e sensibilidade para criar ambientes que refletem quem
+              você é, sempre pensado com carinho do começo ao fim. Cada projeto
+              é único por que cada pessoa é única.
             </p>
           </AnimatedContent>
 

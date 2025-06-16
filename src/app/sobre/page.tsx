@@ -73,7 +73,7 @@ export default function AboutPage() {
             <h2 className="mt-2">Carol Maconi</h2>
             <p className="mt-8 text-zinc-700">
               Formada em Arquitetura e Urbanismo pela Universidade do Sagrado
-              Coração de Bauru (SP) em 2017, Carol Maconi traz uma trajetória
+              Coração de Bauru (SP) em 2016, Carol Maconi traz uma trajetória
               marcada pela versatilidade e dedicação ao ofício. Antes de
               consolidar sua atuação na arquitetura, Carol acumulou experiências
               em áreas complementares, como projetista e no setor de vendas em
@@ -138,8 +138,8 @@ export default function AboutPage() {
         <div className="flex justify-between gap-6 mt-16 max-sm:grid max-sm:grid-cols-2">
           <ExperienceNumbers number="5" title="ANOS DE EXPERIÊNCIA" />
           <ExperienceNumbers number="19" title="PROJETOS CONCLUÍDOS" />
-          <ExperienceNumbers number="57" title="CLIENTES SATISFEITOS" />
-          <ExperienceNumbers number="22" title="SONHOS REFORMADOS" />
+          <ExperienceNumbers number="57" title="SONHOS REFORMADOS" />
+          <ExperienceNumbers number="38" title="CLIENTES SATISFEITOS" />
         </div>
       </section>
     </div>

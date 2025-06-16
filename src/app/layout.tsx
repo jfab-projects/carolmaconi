@@ -46,6 +46,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <meta
+        name="google-site-verification"
+        content="kEtVcZMrFvhB4yrOLqr9HSoDRdD7KkkkdPOq7uiCC74"
+      />
+
       <body className={`${manrope.className} antialiased `}>
         <Header />
 
