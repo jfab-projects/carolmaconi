@@ -23,12 +23,12 @@ export const metadata: Metadata = {
   keywords: [
     "Arquiteta Carol Maconi",
     "Projetos de arquitetura",
-    "Arquiteta em Lençóis Paulista",
+    "Arquiteto em Lençóis Paulista",
     "Arquitetura residencial Lençóis Paulista",
     "Design de interiores Lençóis Paulista",
     "Projeto comercial personalizado",
-    "Arquitetura com estilo e personalidade",
     "Projetos de interiores",
+    "Projetos de interiores Lençóis Paulista",
     "Projeto comercial Lençóis Paulista",
     "Carol Maconi",
   ],
@@ -36,6 +36,23 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://carolmaconi.com.br/"),
   alternates: {
     canonical: "https://carolmaconi.com.br/",
+  },
+  openGraph: {
+    title: "Arquiteta Carol Maconi",
+    description:
+      "Arquiteta com experiência em projetos residenciais e comerciais em Lençóis Paulista e região.",
+    url: "https://carolmaconi.com.br/",
+    siteName: "Arquiteta Carol Maconi",
+    images: [
+      {
+        url: "https://carolmaconi.com.br/og-image.jpg", // substitua pelo caminho real da imagem
+        width: 1200,
+        height: 600,
+        alt: "Arquiteta Carol Maconi - Projetos de arquitetura em Lençóis Paulista",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
   },
 };
 
